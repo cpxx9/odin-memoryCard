@@ -3,6 +3,7 @@ import './styles/App.css';
 import { useState } from 'react';
 
 import ScoreBoard from './components/ScoreBoard';
+import MemoryCards from './components/MemoryCards';
 
 function App() {
   const [score, setScore] = useState(0);
@@ -24,6 +25,7 @@ function App() {
   return (
     <>
       <ScoreBoard score={score} highScore={highscore} />
+      <MemoryCards />
     </>
   );
 }
