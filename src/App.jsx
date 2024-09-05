@@ -24,8 +24,6 @@ function App() {
   return (
     <>
       <ScoreBoard score={score} highScore={highscore} />
-      <button onClick={handleSetScore}>add score</button>
-      <button onClick={resetScore}>reset score</button>
     </>
   );
 }
